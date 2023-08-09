@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/alice_blue"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_mid"
+        android:layout_marginTop="@dimen/margin_max"
+        android:layout_marginEnd="@dimen/margin_mid"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/studentTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margin_min"
+            android:layout_weight="1"
+            android:background="@color/blue_sapphire"
+            android:gravity="center_horizontal"
+            android:padding="@dimen/padding_max"
+            android:text="@string/student"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/driverTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_min"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:gravity="center_horizontal"
+            android:padding="@dimen/padding_max"
+            android:text="@string/driver" />
+    </LinearLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/idFilledTextField"
+        style="?attr/textInputFilledStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="@dimen/margin_mid"
+        android:layout_marginTop="@dimen/margin_max"
+        android:layout_marginEnd="@dimen/margin_mid"
+        android:hint="@string/id">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:inputType="text"
+            android:textSize="@dimen/text" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/passwordFilledTextField"
+        style="?attr/textInputFilledStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="@dimen/margin_mid"
+        android:layout_marginTop="@dimen/margin_mid"
+        android:layout_marginEnd="@dimen/margin_mid"
+        android:hint="@string/password"
+        android:visibility="visible">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:inputType="text|textPassword"
+            android:textSize="@dimen/text" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_mid"
+        android:layout_marginTop="@dimen/margin_mid"
+        android:layout_marginEnd="@dimen/margin_mid"
+        android:text="@string/login" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="@dimen/margin_mid"
+        android:layout_marginTop="@dimen/margin_max"
+        android:layout_marginEnd="@dimen/margin_mid"
+        android:layout_marginBottom="@dimen/margin_max"
+        android:layout_weight="1"
+        android:gravity="bottom"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/app_name" />
+    </LinearLayout>
+
+</LinearLayout>
