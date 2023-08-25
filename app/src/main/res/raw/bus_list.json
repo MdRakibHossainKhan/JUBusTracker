@@ -1,0 +1,27 @@
+[
+  {
+    "busNo": "Bus 1",
+    "regNo": "Dhaka Gha 21-4593",
+    "route": "Khamarbari -> Kazipara -> Technical"
+  },
+  {
+    "busNo": "Bus 2",
+    "regNo": "Dhaka Gha 31-4597",
+    "route": "Shahbagh -> Zigatola -> Shyamoli"
+  },
+  {
+    "busNo": "Bus 3",
+    "regNo": "Dhaka Gha 21-4393",
+    "route": "Motijheel -> Kolabagan -> Kallyanpur"
+  },
+  {
+    "busNo": "Bus 4",
+    "regNo": "Dhaka Gha 27-4590",
+    "route": "Motijheel -> Farmgate -> Shyamoli"
+  },
+  {
+    "busNo": "Bus 5",
+    "regNo": "Dhaka Gha 46-4375",
+    "route": "Mohakhali -> Airport -> Kamarpara"
+  }
+]
